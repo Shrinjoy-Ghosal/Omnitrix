@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # FastAPI backend URL
-FASTAPI_URL = "http://localhost:8000"  # Replace with actual backend URL
+FASTAPI_URL = "https://omnitrix-8cpf.onrender.com"  # Replace with actual backend URL
 
 # Maintain chat history
 if "chat_history" not in st.session_state:
